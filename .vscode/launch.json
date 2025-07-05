@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:macos-mcp-file-server}",
+            "name": "Debug MCPFileServer",
+            "program": "${workspaceFolder:macos-mcp-file-server}/.build/debug/MCPFileServer",
+            "preLaunchTask": "swift: Build Debug MCPFileServer"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:macos-mcp-file-server}",
+            "name": "Release MCPFileServer",
+            "program": "${workspaceFolder:macos-mcp-file-server}/.build/release/MCPFileServer",
+            "preLaunchTask": "swift: Build Release MCPFileServer"
+        }
+    ]
+}
